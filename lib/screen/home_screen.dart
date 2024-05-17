@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text('Example 3'),
       ),
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Column(children: [
             Icon(Icons.call),
